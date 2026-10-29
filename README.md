@@ -15,7 +15,7 @@ Transformo problemas operacionais em soluções digitais com foco em **rastreabi
 
 | Projeto | Objetivo | Tecnologias |
 | --- | --- | --- |
-| **Simulador Industrial 3D** | Simular uma célula de envase, editar componentes e integrar sinais via Modbus TCP. | C#, .NET 8, Godot, Modbus TCP |
+| **[Simulador Industrial 3D](https://github.com/GahbMontoli/industrial-simulator-3d)** | Simular uma célula de envase, editar componentes e integrar sinais via Modbus TCP. | C#, .NET 8, Godot, Modbus TCP |
 | **Copiloto de Confiabilidade Operacional** | Apoiar a triagem de manutenção com ativos, ordens de serviço, recorrência e histórico rastreável. | C#, .NET 8, WPF, JSON |
 | **Portal de Falhas, FMEA e RCA** | Registrar ocorrências e apoiar análises de risco, causa raiz e Pareto em ambiente compartilhado. | JavaScript, Supabase, PostgreSQL |
 | **Soluções Web Profissionais** | Criar sites e fluxos administrativos seguros, responsivos e orientados ao usuário. | Next.js, React, TypeScript, Tailwind CSS |
