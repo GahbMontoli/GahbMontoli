@@ -16,8 +16,9 @@ Transformo problemas operacionais em soluções digitais com foco em **rastreabi
 | Projeto | Objetivo | Tecnologias |
 | --- | --- | --- |
 | **[Simulador Industrial 3D](https://github.com/GahbMontoli/industrial-simulator-3d)** | Simular uma célula de envase, editar componentes e integrar sinais via Modbus TCP. | C#, .NET 8, Godot, Modbus TCP |
-| **Copiloto de Confiabilidade Operacional** | Apoiar a triagem de manutenção com ativos, ordens de serviço, recorrência e histórico rastreável. | C#, .NET 8, WPF, JSON |
+| **[Copiloto de Confiabilidade Operacional](https://github.com/GahbMontoli/copiloto-confiabilidade)** | Apoiar a triagem de manutenção com ativos, ordens de serviço, recorrência e histórico rastreável. | C#, .NET 8, WPF, JSON |
 | **Portal de Falhas, FMEA e RCA** | Registrar ocorrências e apoiar análises de risco, causa raiz e Pareto em ambiente compartilhado. | JavaScript, Supabase, PostgreSQL |
+| **Automação Industrial Segura** | Auditar integridade, periféricos, processos e métricas de computadores industriais com ações controladas. | PowerShell, JSON, HTML, CSV |
 | **Soluções Web Profissionais** | Criar sites e fluxos administrativos seguros, responsivos e orientados ao usuário. | Next.js, React, TypeScript, Tailwind CSS |
 
 ## Tecnologias e ferramentas
@@ -31,6 +32,8 @@ Transformo problemas operacionais em soluções digitais com foco em **rastreabi
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+![Modbus](https://img.shields.io/badge/Modbus_TCP-1E5AA8?style=flat-square&logoColor=white)
 
 ## Como trabalho
 
