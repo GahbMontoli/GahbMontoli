@@ -18,14 +18,16 @@ Transformo problemas operacionais em soluções digitais com foco em **rastreabi
 | **[H3 Climate Reliability Lab](https://github.com/GahbMontoli/h3-climate-reliability-lab)** | Investigar risco higrotérmico com simulações pareadas e dados oficiais do INMET, separando hipótese, associação e evidência de campo. | C#, .NET 8, estatística, HTTP Range, CSV/JSON |
 | **[Simulador Industrial 3D](https://github.com/GahbMontoli/industrial-simulator-3d)** | Simular uma célula de envase, integrar sinais Modbus TCP e executar campanhas headless de injeção de falhas. | C#, .NET 8, Godot, Modbus TCP |
 | **[Copiloto de Confiabilidade Operacional](https://github.com/GahbMontoli/copiloto-confiabilidade)** | Apoiar triagem de manutenção com histórico rastreável e portão de qualidade para dados CMMS. | C#, .NET 8, WPF, JSON |
+| **[Portfolio Industrial Analytics](https://github.com/GahbMontoli/portfolio-industrial-analytics)** | Integrar contratos versionados, proveniência, qualidade e modelo dimensional para análise industrial no Power BI. | PowerShell, Power Query, JSON Schema, Power BI |
 | **Portal de Falhas, FMEA e RCA** | Registrar ocorrências e apoiar análises de risco, causa raiz e Pareto em ambiente compartilhado. | JavaScript, Supabase, PostgreSQL |
 | **Automação Industrial Segura** | Auditar integridade, periféricos, processos e métricas de computadores industriais com ações controladas. | PowerShell, JSON, CSV |
 
 ## Evidências reproduzíveis recentes
 
 - **H3 Monitor:** 60 replicações pareadas, IC95%, 13 testes offline e análise de 8.760 horas da estação INMET A101/2025 com apenas 0,385% do ZIP anual transferido.
-- **Simulador Industrial:** cinco cenários de falha, CSV auditável e 69 testes automatizados.
-- **Copiloto CMMS:** portão de qualidade para duplicidades, vínculos, estados e datas, validado em 18 cenários.
+- **Simulador Industrial:** cinco cenários de falha, pacote CSV + manifesto com SHA-256 e 72 testes automatizados.
+- **Copiloto CMMS:** exportação tabular rastreável para Power BI e portão de qualidade, com 19 testes automatizados.
+- **Portfolio Power BI:** oito tabelas, 1.085 registros sintéticos de fatos, integridade referencial e detecção de adulteração por manifesto.
 
 Os resultados sintéticos validam o comportamento dos modelos; não são apresentados como prova causal ou substituto de validação em hardware e campo.
 
